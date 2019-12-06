@@ -1,0 +1,6 @@
+#include<stdio.h>
+main()
+{
+    float avg=65.4646352652;
+    printf("\n Average: %.3f",avg);
+}

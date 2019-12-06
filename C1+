@@ -1,0 +1,15 @@
+#include<stdio.h>
+int main()
+{
+	int m,p,c,tot;
+	float avg;
+	printf("\nEnter the maths marks ");
+	printf("\nEnter the Physics marks ");
+	printf("/nEnter the Chemistry marks ");
+	scanf("%d %d %d",&m,&p,&c);
+	tot = m+p+c;
+	avg = (float)tot/3;
+	printf("\nThe total marks are = %d ",tot);
+	printf("\nThe average vmarks is = %f ",avg);
+}
+	
