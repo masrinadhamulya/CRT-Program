@@ -1,0 +1,17 @@
+#include<stdio.h>
+main()
+{
+    char ch;
+    printf("\n Enter the char ");
+    scanf("%c",&ch);
+    ch = tolower(ch);
+  switch(ch)
+  {
+      case 'a':printf("\n %c is vowel ");break;
+      case 'e':printf("\n %c is vowel",ch);break;
+      case 'i':printf("\n %c is vowel",ch);break;
+      case 'o':printf("\n %c is vowel",ch);break;
+      case 'u':printf("\n %c is vowel",ch);break;
+      default:printf("\n %c is Consonant",ch);
+  }
+}

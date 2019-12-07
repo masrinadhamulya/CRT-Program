@@ -1,0 +1,17 @@
+#include<stdio.h>
+main()
+{
+    int a;
+    printf("\n Enter the Number");
+    scanf("%d",&a);
+    if(a>=0 && a<10)
+     printf("\n %d is a 1 Digit number",a);
+    else if(a<100)
+     printf("\n %d is a 2 Digit Number ",a);
+    else if(a<1000)
+     printf("\n %d is a 3 Digit Number",a);
+    else if(a<10000)
+     printf("\n %d is a 4 Digit Number",a);
+    else
+     printf("\n %d is a >4 Digit Number",a);
+}

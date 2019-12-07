@@ -1,0 +1,15 @@
+#include<stdio.h>
+main()
+{
+    int a,b,n;
+    printf("\n Enter the table number ");
+    scanf("%d",&a);
+    printf("\n Enter the Range ");
+    scanf("%d",&n);
+    b=1;
+    while(b<=n)
+    {
+        printf("\n %d * %d = %d ",a,b,b*a);
+        b++;
+    }
+}
