@@ -1,0 +1,23 @@
+#include<stdio.h>
+main()
+{
+    int n,r,sum;
+    printf("\nEnter the vehicle Number ");
+    scanf("%d",&n);
+    sum=0;
+    test:
+    while(n>0)
+    {
+        r=n%10;
+        sum=sum+r;
+        n=n/10;
+    }
+    if(sum<10)
+     printf("\nLucky No. is %d ",sum);
+    else
+    {
+        n=sum;
+        sum=0;
+        goto test;
+    }
+}

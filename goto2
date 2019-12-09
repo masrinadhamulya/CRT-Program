@@ -1,0 +1,14 @@
+#include<stdio.h>
+main()
+{
+     int a;
+    a=1;
+    test:
+    {
+         if(a<=20)
+        printf("\n%d",a);
+        a++;
+    }
+   
+    goto test;
+}

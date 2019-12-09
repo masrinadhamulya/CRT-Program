@@ -1,0 +1,15 @@
+#include<stdio.h>
+main()
+{
+    int i;
+    printf("\nEnter the Number ");
+    scanf("%d",&i);
+    if(i%2==0)
+        goto even;
+     
+    else
+        goto odd;
+    even: printf("\n Even ");  exit(0);
+    odd: printf("\n Odd ");
+    
+}
